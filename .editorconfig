@@ -1,0 +1,66 @@
+# standart with http://editorconfig.org
+#==========================================
+#? https://github.com/kitsunedevelop/webeditorconfig
+#==========================================
+
+root = true #  A special property that should be specified at the top of the file outside of any sectionsSet to true to stop .editor config file search on current file
+
+
+[*] # for all fyles that support unix-compatible line breaks
+
+end_of_line = lf # Possible values - lf, crlf, cr (Line ending file format)
+
+insert_final_newline = false # Possible values - true, false (Denotes whether file should end with a newline)
+
+charset = utf-8 # Possible values - latin1, utf-8, utf-16be, utf-16le (File character encoding)
+
+
+# <-----------------> 
+[*.{css,sass,scss}] # below is the content for style's fyles 
+
+indent_style = space # Possible values - tab, space
+
+indent_size = 2 # Possible values - an integer, tab (Indentation size in single-spaced characters)
+
+trim_trailing_whitespace = true # Possible values - true, false (Denotes whether to trim whitespace at the end of lines)
+
+
+# <------->
+[*.css.map] # below is the content for css.map fyles 
+
+indent_size = 1 # Possible values - an integer, tab (Indentation size in single-spaced characters)
+
+trim_trailing_whitespace = true # Possible values - true, false (Denotes whether to trim whitespace at the end of lines)
+
+
+# <--->
+[*.svg] # below is the content for svg fyles 
+
+indent_style = space # Possible values - tab, space
+
+indent_size = 2 # Possible values - an integer, tab (Indentation size in single-spaced characters)
+
+
+# <-----------> 
+[*.{html,htm}] # below is the content for markup's fyles
+
+indent_style = space # Possible values - tab, space
+
+indent_size = 2 # Possible values - an integer, tab (Indentation size in single-spaced characters)
+
+trim_trailing_whitespace = true # Possible values - true, false (Denotes whether to trim whitespace at the end of lines)
+
+# <------------------------> 
+[*.{json,json5,webmanifest}] # below is the content for json's fyles
+
+indent_size = 2 # Possible values - an integer, tab (Indentation size in single-spaced characters)
+
+
+# <-->
+[*.{js,jsm,cjs}] # below is the content for JS fyles
+
+indent_style = space # Possible values - tab, space
+
+indent_size = 2 # Possible values - an integer, tab (Indentation size in single-spaced characters)
+
+trim_trailing_whitespace = true # Possible values - true, false (Denotes whether to trim whitespace at the end of lines)
