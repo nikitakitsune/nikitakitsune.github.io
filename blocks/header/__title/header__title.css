@@ -1,0 +1,34 @@
+.header__title {
+  font-family: 'Concrete', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: .9;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.header__title::selection {
+  color: var(--selection-color);
+}
+
+@media screen and (max-width: 424px) {
+  .header__title {
+    font-size: 50px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .header__title {
+    font-size: 70px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__title {
+    font-size: 90px;
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,29 @@
+.navigator__link {
+  color: white;
+  text-decoration: none;
+  line-height: .7;
+  font-weight: bold;
+}
+
+.navigator__link:hover {
+  color: var(--hover-color);
+  cursor: pointer;
+  text-decoration: underline wavy;
+}
+
+.navigator__link::selection {
+  color: var(--hover-color);
+}
+
+@media screen and (max-width: 767px) {
+  .navigator__link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigator__link {
+    font-size: 25px;
+  }
+}
+
