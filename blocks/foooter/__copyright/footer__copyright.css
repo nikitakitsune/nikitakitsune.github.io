@@ -1,0 +1,7 @@
+.footer__copyright {
+
+}
+
+.footer__copyright::selection {
+  color: var(--selection-color);
+}

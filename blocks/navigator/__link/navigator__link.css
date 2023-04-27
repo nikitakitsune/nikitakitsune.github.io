@@ -15,9 +15,15 @@
   color: var(--hover-color);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-with: 399px) {
   .navigator__link {
-    font-size: 20px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .navigator__link {
+    font-size: 22px;
   }
 }
 

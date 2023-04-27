@@ -19,3 +19,14 @@
 @import url(../blocks/navigator/__link/_2/navigator__link_2.css);
 @import url(../blocks/navigator/__link/_3/navigator__link_3.css);
 @import url(../blocks/navigator/__link/_4/navigator__link_4.css);
+
+/* Contacts section */
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__links/contacts__links.css);
+@import url(../blocks/contact/__link/contact__link.css);
+@import url(../blocks/contact/__img/contact__img.css);
+@import url(../blocks/contact/__title/contact__title.css);
+@import url(../blocks/contact/__subtitle/contact__subtitle.css);
+
+/* Footer section */
+@import url(../blocks/foooter/__copyright/footer__copyright.css);

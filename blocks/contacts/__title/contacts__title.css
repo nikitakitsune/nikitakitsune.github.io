@@ -1,0 +1,10 @@
+.contacts__title {
+  font-family: 'Concrete';
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.contacts__title::selection {
+  color: var(--selection-color);
+}
