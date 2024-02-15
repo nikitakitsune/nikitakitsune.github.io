@@ -3,6 +3,10 @@
   display: flex;
 }
 
+.link::selection {
+  background-color: #fc8eac;
+}
+
 .link:hover {
   cursor: pointer;
 }

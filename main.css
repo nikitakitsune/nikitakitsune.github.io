@@ -412,12 +412,16 @@ template {
   background: white;
   max-width: 620px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 30px;
   box-sizing: border-box;
 }
 .link {
   text-decoration: none;
   display: flex;
+}
+
+.link::selection {
+  background-color: #fc8eac;
 }
 
 .link:hover {
