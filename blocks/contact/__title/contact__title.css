@@ -1,9 +1,0 @@
-.contact__title {
-  color: white;
-  text-decoration: none;
-  margin: 0;
-}
-
-.contact__title::selection {
-  color: var(--selection-color);
-}

@@ -1,9 +1,0 @@
-.contact__subtitle {
-  color: white;
-  text-decoration: none;
-  margin: 0;
-}
-
-.contact__subtitle::selection {
-  color: var(--selection-color);
-}
