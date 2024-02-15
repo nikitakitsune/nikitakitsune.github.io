@@ -1,0 +1,8 @@
+.footer__link {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: gray;
+}

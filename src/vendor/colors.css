@@ -56,4 +56,5 @@
 
 .black.link:hover {
   cursor: pointer;
+  color: gray;
 }

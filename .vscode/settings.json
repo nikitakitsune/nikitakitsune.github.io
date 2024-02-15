@@ -1,6 +1,6 @@
 {
   "files.exclude": {
-    "**/.git": false,
+    "**/.git": true,
     "**/.svn": false,
     "**/.hg": false,
     "**/CVS": false,
@@ -8,13 +8,13 @@
     "**/Thumbs.db": false,
     "node_modules": false,
     "out": false,
-    "**/.prettierrc": false,
-    "**/.gitignore": false,
-    "**/.eslintrc.cjs": false,
-    "**/.vscode": false,
-    ".eslintrc.cjs": false,
-    "**/.editorconfig": false,
-    "**/.nojekyll": false
+    "**/.prettierrc": true,
+    "**/.gitignore": true,
+    "**/.eslintrc.cjs": true,
+    "**/.vscode": true,
+    ".eslintrc.cjs": true,
+    "**/.editorconfig": true,
+    "**/.nojekyll": true
   },
   "explorerExclude.backup": {}
 }

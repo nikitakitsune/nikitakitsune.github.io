@@ -405,8 +405,8 @@ template {
 
 .black.link:hover {
   cursor: pointer;
+  color: gray;
 }
-
 
 .content {
   background: white;
@@ -495,8 +495,29 @@ template {
 }
 
 .footer {
-  padding: 10px 0;
+  padding: 0 0 20px;
   margin: 20px 0 0;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  color: lightgray;
+  display: flex;
+  align-items: flex-start;
+  user-select: none;
+}
+
+.footer__column {
+  margin: 0 0 0 5px;
+}
+.footer__text {
+  margin: 0;
+}
+.footer__link {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: gray;
 }
 
 /* Body */
