@@ -415,7 +415,6 @@ template {
   padding: 0 20px;
   box-sizing: border-box;
 }
-
 .link {
   text-decoration: none;
   display: flex;
@@ -440,9 +439,19 @@ template {
   margin: 0;
 }
 
+.section__text::selection {
+  background-color: #fc8eac;
+}
+
 .section__pronouns {
   color: lightgray;
 }
+
+.section__pronouns::selection {
+  background-color: #fc8eac;
+  color: black;
+}
+
 .section__list {
   margin: 8px 0 0;
   padding: 0;
@@ -464,12 +473,14 @@ template {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 20px;
+  user-select: none;
 }
 
 .list__icon {
   margin: 2px 3px 0 0;
   width: 20px;
   height: 20px;
+  user-select: none;
 }
 
 .header {
