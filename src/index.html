@@ -3,187 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nick Shiro</title>
-    <meta property="og:title" content="Nick Shiro (＾• ω •＾)" />
-    <meta property="og:type" content="text" />
-    <meta property="og:url" content="" />
-    <meta
-      property="og:description"
-      content="Young philosopher, paleontologist, engineer & web-developer"
-    />
-    <meta property="og:image" content="<%=require('./images/avatar.jpg')%>" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="shortcut icon"
-      href="<%=require('./images/dali.jpg')%>"
-      type="image/x-icon"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <title>Nick Shiro</title>
   </head>
   <body class="body">
-    <div class="content">
-      <header class="header section">
-        <img
-          src="<%=require('./images/avatar.jpg')%>"
-          alt="Аватар"
-          class="header__avatar"
-        />
-      </header>
-      <main class="main">
-        <section class="section">
-          <p class="section__text">
-            Hi, I'm Nick Shiro
-            <span class="section__pronouns">(he/him).</span>
+    <header class="header">
+      <div class="header__wrapper">
+        <nav class="header__nav">
+          <a href="#about-me" class="header__link">about me</a>
+          <a href="#" class="header__link">technology stack</a>
+          <a href="#" class="header__link">contacts</a>
+        </nav>
+        <h1 class="header__title">Nick shiro</h1>
+        <ul class="header__subtitles">
+          <li class="header__subtitle">frontend web-developer</li>
+          <li class="header__subtitle">project manager</li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section" id="about-me">
+        <h2 class="section__title">About me</h2>
+        <div class="section__wrap">
+          <h3 class="section__header">
+            Hi, I'm Nick Shiro (he/him)
+          </h4>
+          <p class="section__article">
+            I am a young philosopher,
+            paleontologist, engineer and web-developer, the main developer
+            several projects that introduce modern technologies into everyday
+            life
           </p>
-          <p class="section__text">
-            I am a young philosopher, paleontologist, engineer and web-
-            developer, the main developer several projects that introduce modern
-            technologies into everyday life.
-          </p>
-        </section>
-        <section class="section">
-          <p class="section__text"></p>
-        </section>
-        <section class="section">
-          <p class="section__text">
-            A few words about the technology stack and the tools that I have :)
-          </p>
-          <ul class="section__list">
-            <li class="list__item html-color">
-              <p class="list__text">HTML5</p>
-            </li>
-            <li class="list__item css-color">
-              <p class="list__text">CSS3</p>
-            </li>
-            <li class="list__item sass-color">
-              <p class="list__text">SASS & SCSS</p>
-            </li>
-            <li class="list__item react-color">
-              <p class="list__text">Tailwind</p>
-            </li>
-            <li class="list__item js-color">
-              <p class="list__text">JavaScript</p>
-            </li>
-            <li class="list__item node-color">
-              <p class="list__text">Node JS</p>
-            </li>
-            <li class="list__item react-color">
-              <p class="list__text">React</p>
-            </li>
-            <li class="list__item react-color">
-              <p class="list__text">React Routers</p>
-            </li>
-            <li class="list__item sass-color">
-              <p class="list__text">Redux</p>
-            </li>
-            <li class="list__item vite-color">
-              <p class="list__text">Vite</p>
-            </li>
-            <li class="list__item react-color">
-              <p class="list__text">Webpack</p>
-            </li>
-            <li class="list__item html-color">
-              <p class="list__text">Post CSS</p>
-            </li>
-            <li class="list__item js-color">
-              <p class="list__text">Babel</p>
-            </li>
-            <li class="list__item html-color">
-              <p class="list__text">Git</p>
-            </li>
-            <li class="list__item github-color">
-              <p class="list__text">GitHub</p>
-            </li>
-            <li class="list__item html-color">
-              <p class="list__text">GitLab</p>
-            </li>
-            <li class="list__item node-color">
-              <p class="list__text">NPM</p>
-            </li>
-            <li class="list__item node-color">
-              <p class="list__text">Yarn</p>
-            </li>
-            <li class="list__item sass-color">
-              <p class="list__text">Figma</p>
-            </li>
-            <li class="list__item html-color">
-              <p class="list__text">Adobe Ai</p>
-            </li>
-          </ul>
-        </section>
-        <section class="section">
-          <p class="section__text">
-            If you are a recruiter or a project founder, contact with me by
-            socials!
-          </p>
-          <ul class="section__list">
-            <li class="list__item telegram__color telegram-color">
-              <a href="https://t.me/nikitakitsune" class="link telegram-color">
-                <img
-                  src="<%=require('./images/tg.svg')%>"
-                  alt="tg"
-                  class="list__icon"
-                />
-                <p class="list__text">nikitakitsune</p>
-              </a>
-            </li>
-            <li class="list__item telegram__color html-color">
-              <a
-                href="https://instagram.com/shisokanoyorikku"
-                class="link html-color"
-              >
-                <img
-                  src="<%=require('./images/instagram.svg')%>"
-                  alt="tg"
-                  class="list__icon"
-                />
-                <p class="list__text">shisokanoyorikku</p>
-              </a>
-            </li>
-            <li class="list__item telegram__color github-color">
-              <a
-                href="https://github.com/nikitakitsune"
-                class="link github-color"
-              >
-                <img
-                  src="<%=require('./images/github.svg')%>"
-                  alt="tg"
-                  class="list__icon"
-                />
-                <p class="list__text">nikitakitsune</p>
-              </a>
-            </li>
-          </ul>
-          <p class="section__text">
-            Or email me —
-            <a href="mailto:nikitakitsunedev@gmail.com" class="link black">
-              nikitakitsunedev@gmail.com
-            </a>
-          </p>
-        </section>
-        <section class="section">
-          <p class="section__text">
-            I speak American English, Russian, Ukrainian, and just a little
-            Japanese. It is preferable to write in EN & RU.
-          </p>
-        </section>
-      </main>
-      <footer class="footer">
-        <p class="footer__text">&#169;</p>
-        <div class="footer__column">
-          <p class="footer__text">2024 Nick Shiro</p>
-          <a
-            href="https://github.com/nikitakitsune/nikitakitsune.github.io"
-            class="footer__link"
-          >
-            <p class="footer__text">View source on github</p>
-          </a>
         </div>
-      </footer>
-    </div>
+      </section>
+    </main>
   </body>
 </html>

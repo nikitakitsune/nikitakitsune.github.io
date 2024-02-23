@@ -1,0 +1,24 @@
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+  .header__wrapper {
+    margin: 0 0 0 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__wrapper {
+    margin: 0 0 0 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__wrapper {
+    margin: 0;
+  }
+}

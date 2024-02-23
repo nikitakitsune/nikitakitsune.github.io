@@ -1,6 +1,6 @@
 {
   "files.exclude": {
-    "**/.git": true,
+    "**/.git": false,
     "**/.svn": false,
     "**/.hg": false,
     "**/CVS": false,
@@ -8,13 +8,27 @@
     "**/Thumbs.db": false,
     "node_modules": false,
     "out": false,
-    "**/.prettierrc": true,
-    "**/.gitignore": true,
-    "**/.eslintrc.cjs": true,
-    "**/.vscode": true,
+    "**/.prettierrc": false,
+    "**/.gitignore": false,
+    "**/.eslintrc.cjs": false,
+    "**/.vscode": false,
     ".eslintrc.cjs": true,
-    "**/.editorconfig": true,
-    "**/.nojekyll": true
+    "**/.editorconfig": false,
+    "**/.nojekyll": false,
+    "package.json": false,
+    "package-lock.json": false,
+    ".git": true,
+    ".vscode": true,
+    ".gitignore": true,
+    "site/.gitignore": true,
+    "site/package-lock.json": true,
+    "site/package.json": true,
+    "site/.eslintrc.cjs": true,
+    "site/vite.config.js": true,
+    ".nojekyll": true,
+    ".editorconfig": true,
+    "site/node_modules": true,
+    "site/yarn.lock": true
   },
   "explorerExclude.backup": {}
 }

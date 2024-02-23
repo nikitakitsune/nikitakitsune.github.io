@@ -1,0 +1,17 @@
+.header__subtitle::selection {
+  color: var(--second-color);
+}
+
+@media screen and (min-width: 371px) {
+  .header__subtitle {
+    font-size: 25px;
+    line-height: 1.2em;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .header__subtitle {
+    font-size: 22px;
+    line-height: 1.3em;
+  }
+}

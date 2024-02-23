@@ -1,8 +1,0 @@
-.section__pronouns {
-  color: lightgray;
-}
-
-.section__pronouns::selection {
-  background-color: #fc8eac;
-  color: black;
-}

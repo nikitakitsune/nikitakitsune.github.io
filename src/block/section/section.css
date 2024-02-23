@@ -1,0 +1,9 @@
+.section {
+  display: flex;
+  position: relative;
+  padding: 25px 15px;
+  font-family: "Aileron";
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 50vh;
+}

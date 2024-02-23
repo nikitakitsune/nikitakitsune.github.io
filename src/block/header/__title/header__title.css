@@ -1,0 +1,47 @@
+.header__title {
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 0.85em;
+}
+
+.header__title::first-letter {
+  font-family: "Classica One";
+  color: var(--second-color);
+}
+
+.header__title::selection {
+  color: var(--second-color);
+}
+
+@media screen and (min-width: 1025px) {
+  .header__title {
+    font-size: 150px;
+    max-width: 500px;
+  }
+
+  .header__title::first-letter {
+    margin: 0 0 0 -10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__title {
+    font-size: 100px;
+    max-width: 400px;
+  }
+
+  .header__title::first-letter {
+    margin: 0 0 0 -7px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .header__title {
+    font-size: 80px;
+    max-width: 300px;
+  }
+
+  .header__title::first-letter {
+    margin: 0 0 0 -6px;
+  }
+}

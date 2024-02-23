@@ -1,0 +1,12 @@
+.section__title {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.section__title::selection {
+  color: var(--second-color);
+}
+
+.section__title::first-letter {
+  font-family: "Classica One";
+}

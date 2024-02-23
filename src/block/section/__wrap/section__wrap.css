@@ -1,0 +1,5 @@
+.section__wrap {
+  position: absolute;
+  box-sizing: border-box;
+  left: 50%;
+}
